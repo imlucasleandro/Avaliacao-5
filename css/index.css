@@ -13,8 +13,8 @@ body{
 /* #redion FORMULARIO */
 .container .formulario{
     margin: 0;
-    height: 100vh;
-    width: 60vw;
+    height: 100%;
+    width: 60%;
     background: rgb(242, 242, 242);
 }
 .formulario .titulo{
@@ -25,7 +25,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 40vh;
+    height: 28vh;
 }
 .formulario .titulo h1{
     font-family: 'Raleway';
@@ -164,11 +164,17 @@ body{
 }
 .flier-overlay main span:last-child{
     position: absolute;
-    top: 90%;
-    left: 50%;
+    top: 100%;
+    left: 100%;
     transform: translate(-50%, -50%);
     font-size: 30px;
 }
+
+img{
+    width: 100% !important;
+    height: 100% !important; 
+}
+
 /* #endregion FLIER */
 
 /* Responsividade */
